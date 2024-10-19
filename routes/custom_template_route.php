@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::view('/', 'frontend.pages.index');
+
 Route::view('/app-profile', 'frontend.pages.app-profile');
 Route::view('/email-compose', 'frontend.pages.email-compose');
 Route::view('/email-inbox', 'frontend.pages.email-inbox');
