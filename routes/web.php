@@ -34,10 +34,8 @@ Route::view('/uc-toastr', 'frontend.pages.uc-toastr');
 Route::view('/form-element', 'frontend.pages.form-element');
 Route::view('/form-wizard', 'frontend.pages.form-wizard');
 Route::view('/form-validation', 'frontend.pages.form-validation');
-Route::view('/form-advanced', 'frontend.pages.form-advanced');
 Route::view('/form-editors', 'frontend.pages.form-editors');
 Route::view('/form-uploads', 'frontend.pages.form-uploads');
-Route::view('/form-xeditable', 'frontend.pages.form-xeditable');
 Route::view('/form-repeater', 'frontend.pages.form-repeater');
 Route::view('/form-wizard', 'frontend.pages.form-wizard');
 Route::view('/form-editor-summernote', 'frontend.pages.form-editor-summernote');
@@ -47,8 +45,5 @@ Route::view('/table-bootstrap-basic', 'frontend.pages.table-bootstrap-basic');
 Route::view('/table-datatable-basic', 'frontend.pages.table-datatable-basic');
 Route::view('/page-register', 'frontend.pages.page-register');
 Route::view('/page-login', 'frontend.pages.page-login');
-
-
-
 Route::view('/page-error-400', 'frontend.pages.page-error-400');
 
